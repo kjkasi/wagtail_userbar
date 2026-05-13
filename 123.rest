@@ -1,0 +1,4 @@
+GET http://localhost:8020/
+
+
+GET http://localhost:8020/static/css/mysite.css
