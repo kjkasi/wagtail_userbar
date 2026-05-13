@@ -1,0 +1,14 @@
+services:
+  nginx:
+    build:
+      context: .
+      dockerfile: Dockerfile.nginx
+    ports:
+      - "8020:80"
+
+  wagtail:
+    build:
+      context: .
+      dockerfile: Dockerfile.wagtail
+    ports:
+      - "8000"
